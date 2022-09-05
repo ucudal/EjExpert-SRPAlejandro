@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/Ejercicio 1/src/Program/SRP.csproj",
+                "${workspaceFolder}/Ejercicio 2/src/Program/Program.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -19,7 +19,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/Ejercicio 1/src/Program/SRP.csproj",
+                "${workspaceFolder}/Ejercicio 2/src/Program/Program.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -33,7 +33,7 @@
                 "watch",
                 "run",
                 "--project",
-                "${workspaceFolder}/Ejercicio 1/src/Program/SRP.csproj"
+                "${workspaceFolder}/Ejercicio 2/src/Program/Program.csproj"
             ],
             "problemMatcher": "$msCompile"
         }
